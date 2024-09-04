@@ -203,13 +203,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-// Google recaptcha
-window.onload = function() { 
-    var el = document.getElementById('g-recaptcha-response'); 
-    if (el) { 
-      el.setAttribute('required', 'required'); 
-    } 
-  }
+
 
 // validate all field in the contact form
 document.getElementById("check").onclick = function() {

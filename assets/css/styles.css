@@ -100,7 +100,7 @@ body.dark-theme{
 }
 
 .change-theme:hover{
-    color: var(--first-color-second);
+    color: var(--first-color);
 }
 
 /*==================== BASE ====================*/
